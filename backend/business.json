@@ -1,0 +1,24 @@
+{
+  "name": "Sunrise Family Clinic",
+  "phone": "+91 40 5550 0100",
+  "address": "12 Garden Road, Hyderabad",
+  "timezone": "Asia/Kolkata",
+  "slot_minutes": 30,
+  "min_notice_minutes": 60,
+  "hours": {
+    "mon": ["09:00", "17:00"], "tue": ["09:00", "17:00"], "wed": ["09:00", "17:00"],
+    "thu": ["09:00", "17:00"], "fri": ["09:00", "17:00"], "sat": ["09:00", "13:00"], "sun": null
+  },
+  "services": [
+    {"name": "General consultation", "duration_min": 30},
+    {"name": "Follow-up visit", "duration_min": 30},
+    {"name": "Health check-up", "duration_min": 60}
+  ],
+  "faq": [
+    {"topic": "parking", "answer": "Free parking is available behind the clinic."},
+    {"topic": "payment", "answer": "We accept cash, cards and UPI."},
+    {"topic": "cancellation", "answer": "Please cancel or reschedule at least 2 hours before your appointment."}
+  ],
+  "escalation_keywords": ["emergency", "chest pain", "can't breathe", "cannot breathe", "bleeding", "unconscious", "overdose"],
+  "escalation_message": "If this is an emergency, please hang up and call your local emergency number right now. I'm also connecting you with a human receptionist."
+}
