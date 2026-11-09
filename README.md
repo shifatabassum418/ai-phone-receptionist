@@ -1,5 +1,10 @@
 # AI Phone Receptionist
 
+[Watch the demo video](https://drive.google.com/file/d/1opo1VFFgZ675Vzi0T_PXeV952Pc6GANs/view?usp=drivesdk)
+
+[Live app](https://ai-phone-receptionist-k4tq.onrender.com)
+
+
 An AI receptionist that talks with callers by voice to answer business questions, check availability, book, reschedule and cancel appointments, take customer details, send confirmations and hand over to a human. It keeps conversation state for the whole call, calls real tools instead of pretending to act, and ships with a dark admin dashboard.
 
 Everything runs offline in **mock mode** (rule-based model, local calendar, browser voice). Switch each component to a real provider with environment variables. The UI shows a MOCK MODE banner listing exactly what is simulated.
